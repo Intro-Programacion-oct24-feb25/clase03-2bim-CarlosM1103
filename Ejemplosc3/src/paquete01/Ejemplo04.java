@@ -16,7 +16,7 @@ public class Ejemplo04 {
      */
     public static void main(String[] args) {
         // Creación de arreglo bidimensionales
-        
+        int sumatotal = 0;
         // forma 1
         int[][] arreglo1 = {
             
@@ -37,10 +37,13 @@ public class Ejemplo04 {
                      // 0 + arreglo1[0][0] // 0 + 10 // 10
                      // 10 + arreglo1[0][1] // 10 + 20 // 30
                      // 30 + arreglo1[0][2] // 30 + 40 // 70
+                
             }
+            sumatotal = sumatotal + suma;
             System.out.printf("Suma de valores del arreglo: %d\n", suma);
         }
         
+        System.out.println("La suma total es de:" + sumatotal);
         // System.out.printf("Suma de valores del arreglo: %d\n", suma);
     }
     
