@@ -41,7 +41,7 @@ public class Ejemplo01 {
             if (sumaNotasCualitativas[i] < 5.9) {
                 cualitativo[i] = "Bueno";
             } else {
-                if (sumaNotasCualitativas[i] > 5.9 && (sumaNotasCualitativas[i] < 8.9)) {
+                if (sumaNotasCualitativas[i] > 5.9 && (sumaNotasCualitativas[i] < 9)) {
                     cualitativo[i] = "Muy Bueno";
                 } else {
                     if (sumaNotasCualitativas[i] > 8.9) {
