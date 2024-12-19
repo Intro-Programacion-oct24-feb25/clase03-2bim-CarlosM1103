@@ -32,7 +32,8 @@ public class Ejemplo11 {
         4    6
         30   52
         */
-        
+        /* En este código uso 3 arreglos, arreglo 1 = filas , arreglo 2 = 
+        columnas , arreglo 3 = la suma de valores */
         int valor1;
         int valor2;
         

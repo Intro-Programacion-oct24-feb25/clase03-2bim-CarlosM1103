@@ -8,6 +8,7 @@ package paquete01;
 /**
  *
  * @author reroes
+ * /*
  */
 public class Ejemplo05 {
 
